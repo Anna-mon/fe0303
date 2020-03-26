@@ -40,3 +40,99 @@ git commit
 git checkout bugFix
 git rebase master
 ```
+
+## 2. Едем дальше
+
+- [x] Теряем голову, или detached HEAD
+  
+```sh
+git chechout c4
+```
+
+-[x] Относительные ссылки (^)
+
+```sh
+git checkout bugFix^
+```
+- [x] Относительные ссылки №2
+
+```sh
+git checkout HEAD^
+git branch -f bugFix HEAD~1
+git branch -f master c6
+```
+
+- [x] Отмена изменений в Git
+
+```sh
+git reset local~1
+git checkout pushed
+git revert pushed
+```
+
+## 3. Перемещаем труды туда-сюда
+
+- [x] Введение в Cherry-pick
+
+```sh
+
+```
+
+- [x] Введение в интерактивный Rebase
+
+```sh
+
+```
+
+## 4. Сборная солянка
+
+- [x] Выберем один коммит
+
+```sh
+
+```
+
+- [x] Жонглируем коммитами
+
+```sh
+
+```
+
+- [x] Жонглируем коммитами №2
+
+```sh
+
+```
+
+- [x] Git tag
+
+```sh
+
+```
+
+- [x] Git describe
+
+```sh
+
+```
+
+## 5. Продвинутый уровень
+
+- [x] Rebase over 9000 раз
+
+```sh
+
+```
+
+- [x] Здоровая семья или несколько родителей
+
+```sh
+
+```
+
+- [x] Спутанные ветки
+
+```sh
+
+```
+
