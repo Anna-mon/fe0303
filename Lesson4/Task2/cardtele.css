@@ -67,6 +67,7 @@
 {
     width: 15px;
     fill: #E5E5E5;
+    stroke: red;
 }
 
 .card__rating--1 .card__rating-star:nth-child(1),

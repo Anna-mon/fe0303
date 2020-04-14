@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= display, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        .wrapper
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 450px;
+            
+        }
+        .maika
+        {
+          margin-top: 50px;
+          margin-left: 50px;
+          margin-bottom: auto;
+          margin-right: 25px;
+          background:salmon;
+          flex-basis: 40%;
+          height: 400px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 40px;
+          
+        }
+        .anjy
+        {
+          margin-top: 50px;
+          margin-left: 25px;
+          margin-bottom: auto;
+          margin-right: 50px;
+          background:greenyellow;
+          flex-basis: 40%;
+          height: 400px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 40px;
+        }
+        @media  (max-width: 800px)
+        {
+            .maika
+            {
+             background: greenyellow;
+            }
+            .anjy
+            {
+             background: salmon;
+            }
+        }
+        @media (min-width: 950px)
+        {
+            .maika 
+            {
+                background: red;
+            }
+            .anjy
+            {
+                background: green;
+            }
+        }
+          
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="maika">
+        Майка
+       </div>
+        
+       <div class="anjy">
+        Анжик
+       </div>
+    </div>   
+</body>
+</html>

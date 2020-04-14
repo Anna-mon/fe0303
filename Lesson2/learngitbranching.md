@@ -75,7 +75,7 @@ git revert pushed
 - [x] Введение в Cherry-pick
 
 ```sh
-
+git cherry-pick c3 c4 c7
 ```
 
 - [x] Введение в интерактивный Rebase
