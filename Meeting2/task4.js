@@ -5,3 +5,9 @@
 
 // (*) Напишите функцию, которая будет решать эту задачу в общем виде, для любых (speed, slowdown, mine),
 // где mine - это высота шахты, speed - скорость таракана за час, slowdown - расстояние падения из-за усталости
+function Time1(speed, slowdown, mine) {
+    let time;
+    if ( speed = 1, slowdown = 0.5, mine = 5) {
+    return (time = (speed - slowdown) * mine) };
+    
+};
