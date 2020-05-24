@@ -4,7 +4,7 @@
 // 4. В первых трех задачах добавить пользователю возможность ввести значения переменных.
 // 5. Выводить в консоль простые числа от 1 до n до тех пор, пока пользователь не скажет хватить.
 
-function task1( n ) {
+/*function task1( n ) {
     let i = 1;
 
     while (i<=n) {
@@ -15,7 +15,7 @@ function task1( n ) {
 }
 
 // task1(5);
-// task1(10);
+// task1(10);*/
 
 function isSimple( n ) {
     for (let k = 2; k < n ; k++) {
@@ -25,6 +25,7 @@ function isSimple( n ) {
     }
 
     return true;
+    
 }
 
 // let m = 1;
@@ -34,7 +35,7 @@ function isSimple( n ) {
 //     m++;
 // } while(m < 15);
 
-function getSimple(n) {
+/*function getSimple(n) {
     let m = 1;
 
     do {
@@ -60,4 +61,4 @@ function getNumbersDeletedBy(n, k) {
     }
 }
 
-getNumbersDeletedBy(100, 5);
+getNumbersDeletedBy(100, 5);*/

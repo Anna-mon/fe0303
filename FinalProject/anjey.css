@@ -1,0 +1,349 @@
+
+* {
+
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    
+    background-color: black;
+    flex-wrap: wrap;
+    
+}
+.wrapper {
+    box-sizing: border-box;
+    display: flex;
+    width: 90%;
+    background-color:white;
+    margin: 5%;
+    
+}
+.div {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 20px;
+}
+.div1 {
+    background-color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 30%;
+    margin-right: 50%;
+}
+.div2 {
+    background-color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    text-align: right;
+    width: 20%;
+}
+.header {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-wrap: nowrap;
+    
+     
+    
+    background-color: rgba(255, 81, 0, 0.938);
+    border-radius: 5px;
+}
+.little_picture {
+    box-sizing: content-box;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+}
+.heading {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+    background-color: rgba(255, 238, 0, 0.89);
+    border-radius: 5px;
+    
+}
+.name {
+    background-color: rgba(255, 238, 0, 0.89);
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    height: 50%;
+    
+
+}
+.sections {
+    background-color: rgba(255, 238, 0, 0.89);
+    border-radius: 5px;
+    height: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.title {
+    background-color: rgba(255, 238, 0, 0.89);
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    width: 25%;
+    
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: black;
+    color: rgba(255, 238, 0, 0.89);
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+    
+    
+}
+.logo_picture {
+    width: 10%;
+}
+.content {
+    width: 12,5%;
+    background-color: rgba(255, 238, 0, 0.89);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about_me {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    
+}
+.my_photos {
+    background-color:rgbargba(255, 81, 0, 0.938);
+    box-sizing: border-box;
+    display: flex;
+    width: 30%;
+    height: 600px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    
+}
+.my_biography {
+    box-sizing: border-box;
+    display: flex;
+    width: 70%;
+    height: 600px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.phone{
+    width: 100%;
+    height: 100%;
+    background-image: url(photo_project\IMG_20200523_200737.jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.photo {
+    background-color: rgba(255, 81, 0, 0.938);
+    box-sizing: border-box;
+    display: flex;
+    height: 50%;
+    border-radius: 5px;
+    
+}
+.my_photo {
+    width: 290px;
+    height: 290px;
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px;
+    background-color: white;
+    
+}
+.my_gallery {
+    width: 100%;
+    height: 6000px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 238, 0, 0.89);
+
+}
+.gallery {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: rgba(255, 238, 0, 0.89);
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.picture {
+    width:30%;
+    height: 500px;
+    margin-top: 20px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name_picture {
+    background-color:black;
+    height: 20%;
+
+}
+.img {
+    background-color: white;
+    border: 1px solid;
+    border-color:lightgray;
+    box-shadow: 0px 2px 8px;
+    height: 80%;
+
+}
+.calendar {
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    background-color: rgba(255, 81, 0, 0.938);
+}
+.data {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: rgba(255, 81, 0, 0.938);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+.root {
+    background-color: white;
+    box-sizing: border-box;
+}
+.countdown
+{
+    width: 100%;
+    max-width: 1800px;
+
+    padding: 1px;
+
+    font-size: 2em;
+}
+
+.countdown__title
+{
+    text-align: center;
+    color: white;
+}
+
+.countdown__counter
+{
+    display: flex;
+    justify-content: center;
+}
+
+.countdown__item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.section
+{
+    width: 100%;
+    padding: 40px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+.section:nth-child(2n)
+{
+    background: rgb(165, 144, 144);
+}
+
+@media (max-width: 600px) {
+    .countdown
+    {
+        padding: 0 20px;
+    }
+
+    .countdown__counter
+    {
+        flex-wrap: wrap;
+    }
+
+    .countdown__item
+    {
+        flex: 0 0 4em;
+        padding: 0;
+    }
+
+    .countdown__item:nth-child(1)
+    {
+        margin-left: calc(50% - 4em);
+    }
+
+    .countdown__item:nth-child(2)
+    {
+        margin-right: calc(50% - 4em);
+    }
+
+    .countdown__item:nth-child(n + 3)
+    {
+        margin-top: 20px;
+    }
+}

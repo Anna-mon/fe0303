@@ -8,6 +8,7 @@
 function Time1(speed, slowdown, mine) {
     let time;
     if ( speed = 1, slowdown = 0.5, mine = 5) {
-    return (time = (speed - slowdown) * mine) };
+    return time = (speed - slowdown) * mine };
+    console.log(time);
     
 };
